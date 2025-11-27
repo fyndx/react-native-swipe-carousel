@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764253460225" clover="3.2.0">
+  <project timestamp="1764253460225" name="All files">
+    <metrics statements="79" coveredstatements="79" conditionals="27" coveredconditionals="27" methods="13" coveredmethods="13" elements="119" coveredelements="119" complexity="0" loc="79" ncloc="79" packages="1" files="1" classes="1"/>
+    <file name="index.tsx" path="/Users/subramanya/Developer/github/react-native-swipe-carousel/src/index.tsx">
+      <metrics statements="79" coveredstatements="79" conditionals="27" coveredconditionals="27" methods="13" coveredmethods="13"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="33" count="1" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="40" count="1" type="stmt"/>
+      <line num="41" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="45" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+      <line num="49" count="1" type="stmt"/>
+      <line num="50" count="1" type="stmt"/>
+      <line num="51" count="1" type="stmt"/>
+      <line num="54" count="1" type="stmt"/>
+      <line num="57" count="1" type="stmt"/>
+      <line num="58" count="1" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
+      <line num="60" count="1" type="stmt"/>
+      <line num="61" count="1" type="stmt"/>
+      <line num="102" count="49" type="stmt"/>
+      <line num="103" count="49" type="stmt"/>
+      <line num="104" count="49" type="stmt"/>
+      <line num="106" count="49" type="stmt"/>
+      <line num="125" count="145" type="stmt"/>
+      <line num="127" count="145" type="cond" truecount="2" falsecount="0"/>
+      <line num="130" count="145" type="stmt"/>
+      <line num="179" count="140" type="stmt"/>
+      <line num="180" count="140" type="stmt"/>
+      <line num="182" count="140" type="stmt"/>
+      <line num="183" count="141" type="stmt"/>
+      <line num="184" count="141" type="stmt"/>
+      <line num="185" count="141" type="stmt"/>
+      <line num="187" count="141" type="stmt"/>
+      <line num="188" count="141" type="stmt"/>
+      <line num="190" count="141" type="stmt"/>
+      <line num="197" count="141" type="stmt"/>
+      <line num="204" count="141" type="stmt"/>
+      <line num="210" count="140" type="stmt"/>
+      <line num="245" count="50" type="stmt"/>
+      <line num="246" count="73" type="stmt"/>
+      <line num="248" count="50" type="stmt"/>
+      <line num="249" count="50" type="cond" truecount="2" falsecount="0"/>
+      <line num="250" count="50" type="stmt"/>
+      <line num="252" count="50" type="stmt"/>
+      <line num="253" count="50" type="stmt"/>
+      <line num="254" count="50" type="cond" truecount="2" falsecount="0"/>
+      <line num="255" count="3" type="stmt"/>
+      <line num="256" count="3" type="stmt"/>
+      <line num="257" count="9" type="stmt"/>
+      <line num="259" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="260" count="2" type="stmt"/>
+      <line num="261" count="2" type="stmt"/>
+      <line num="269" count="50" type="stmt"/>
+      <line num="271" count="6" type="stmt"/>
+      <line num="272" count="6" type="stmt"/>
+      <line num="276" count="6" type="stmt"/>
+      <line num="279" count="50" type="stmt"/>
+      <line num="280" count="6" type="stmt"/>
+      <line num="281" count="6" type="stmt"/>
+      <line num="282" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="283" count="3" type="stmt"/>
+      <line num="287" count="50" type="stmt"/>
+      <line num="290" count="4" type="stmt"/>
+      <line num="291" count="4" type="stmt"/>
+      <line num="292" count="4" type="stmt"/>
+      <line num="294" count="4" type="stmt"/>
+      <line num="300" count="6" type="stmt"/>
+      <line num="301" count="6" type="stmt"/>
+      <line num="303" count="6" type="stmt"/>
+      <line num="305" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="306" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="307" count="2" type="stmt"/>
+      <line num="309" count="1" type="stmt"/>
+      <line num="313" count="6" type="stmt"/>
+      <line num="314" count="6" type="stmt"/>
+      <line num="317" count="50" type="stmt"/>
+      <line num="343" count="140" type="stmt"/>
+    </file>
+  </project>
+</coverage>

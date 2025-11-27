@@ -1,6 +1,7 @@
 import { fixupConfigRules } from '@eslint/compat';
 import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
+import jestPlugin from 'eslint-plugin-jest';
 import prettier from 'eslint-plugin-prettier';
 import { defineConfig } from 'eslint/config';
 import path from 'node:path';
@@ -21,6 +22,25 @@ export default defineConfig([
     rules: {
       'react/react-in-jsx-scope': 'off',
       'prettier/prettier': 'error',
+    },
+  },
+  {
+    files: ['**/__tests__/**/*', '**/*.test.{ts,tsx,js,jsx}'],
+    languageOptions: {
+      globals: {
+        ...jestPlugin.environments.globals.globals,
+      },
+    },
+    rules: {
+      ...jestPlugin.configs.recommended.rules,
+    },
+  },
+  {
+    files: ['jest-setup.js', 'jest.config.js'],
+    languageOptions: {
+      globals: {
+        ...jestPlugin.environments.globals.globals,
+      },
     },
   },
   {
