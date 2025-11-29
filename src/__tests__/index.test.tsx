@@ -562,6 +562,8 @@ describe('Carousel', () => {
       ]);
 
       jest.advanceTimersByTime(1000);
+      // Swiping right from the first item should not change the selected index
+      expect(mockOnItemChange).not.toHaveBeenCalled();
     });
 
     it('should handle pan gesture with negative translationX', () => {
@@ -809,6 +811,7 @@ describe('Carousel', () => {
 
       // Should stay on same item, so onItemChange may not be called
       // or called with same item
+      expect(mockOnItemChange).not.toHaveBeenCalled();
     });
   });
 

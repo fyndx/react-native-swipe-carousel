@@ -129,7 +129,7 @@ function GradientBorder({
                   : `${(index / (colorCount - 1)) * 100}%`;
               return (
                 <Stop
-                  key={color}
+                  key={`${color}-${index}`}
                   offset={offset}
                   stopColor={color}
                   stopOpacity={GRADIENT_STOP_OPACITY}
@@ -264,7 +264,8 @@ export function Carousel<T extends CarouselItemBase>({
         });
       }
     }
-  }, [selectedItem, items, currentIndex, translateX, getItemId, itemSpacing]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- currentIndex and translateX are SharedValues (stable references)
+  }, [selectedItem, items, getItemId, itemSpacing]);
 
   const snapToIndex = (index: number) => {
     'worklet';

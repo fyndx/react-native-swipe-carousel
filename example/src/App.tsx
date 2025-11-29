@@ -25,6 +25,9 @@ export default function App() {
     const fetchImages = async () => {
       try {
         const response = await fetch('https://picsum.photos/v2/list?limit=5');
+        if (!response.ok) {
+          throw new Error(`HTTP error: ${response.status}`);
+        }
         const data: PicsumPhoto[] = await response.json();
 
         const transformedItems: PicsumPhoto[] = data.map((photo) => ({
