@@ -1,6 +1,6 @@
 {
   "name": "@fyndx/react-native-swipe-carousel",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Swipe Carousel for react native with reanimated and gesture handler",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
