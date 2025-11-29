@@ -16,6 +16,12 @@ A performant swipe carousel component for React Native built with `react-native-
 npm install @fyndx/react-native-swipe-carousel
 ```
 
+### Demo
+
+<video src="https://github.com/user-attachments/assets/1e39b148-fe8c-42e0-bfc7-96d9b7f46195" controls width="100%">
+  Your browser does not support the video tag.
+</video>
+
 ### Peer Dependencies
 
 This library requires the following peer dependencies:
